@@ -1,0 +1,21 @@
+body {
+    background-color:lightseagreen;
+}
+.navbar {
+    background-color: darkcyan;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+.navbar a {
+    float: left;
+    color: #101000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover {
+    background-color: paleturquoise;
+}
