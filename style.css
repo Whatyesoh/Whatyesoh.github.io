@@ -24,3 +24,23 @@ body {
     padding: 16px;
     height: 1000px;
 }
+.parallax {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(255, 255, 212);
+    background-attachment: fixed;
+    z-index: 0;
+}
+.projectIntro {
+    display: flex;
+    text-align: center;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100vh 100vh;
+    border-color: transparent transparent rgb(174, 236, 236) rgb(174, 236, 236);
+    justify-content: center;
+    z-index: 1;
+}
