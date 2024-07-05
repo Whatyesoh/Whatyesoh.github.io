@@ -3,11 +3,12 @@
     src: url(GlitchGoblin-2O87v.ttf);
 }
 .navbar {
-    background-color: darkcyan;
+    background-color: rgb(100,200,200);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 body {
     position: relative;
@@ -24,7 +25,7 @@ body {
     font-size: 18px;
 }
 .navbar a:hover {
-    background-color: paleturquoise;
+    background-color:   rgb(174, 236, 236);
 }
 .main {
     margin-top: 10px;
@@ -113,4 +114,62 @@ body {
     height: 100vh;      
     background-color: rgb(174, 236, 236);
     z-index: 1;
+}
+#pageHeader {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    z-index: -1;
+}
+#pageSummary {
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    z-index: -1;
+}
+#linkButton {
+    position: relative;
+    top:0vh;
+    right:0vw;
+    border: 5px solid rgb(210,210,140);
+    background-color: gray;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+    width:21vh;
+    height:6vh;
+    transition-duration: .3s;
+    cursor: pointer;
+
+}
+#linkButton:hover {
+    background-color: rgb(100,200,200);
+}
+#leftList {
+    position: absolute;
+    text-align: center;
+    left:0;
+    width: 48vw;
+    top:26vw;
+    img{
+        border: 5px solid rgb(210,210,140);
+        width: 20vh;
+        height: 20vh;
+    }
+}
+#space {
+    height:10vh;
+    width:0;
+}
+#rightList {
+    position: absolute;
+    text-align: center;
+    left:48vw;
+    width: 50vw;
+    top:26vw;
+    img{
+        border: 5px solid rgb(210,210,140);
+        width: 20vh;
+        height: 20vh;
+    }
 }
