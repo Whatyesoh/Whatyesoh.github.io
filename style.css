@@ -208,3 +208,8 @@ body {
         height: 20vh;
     }
 }
+#aboutMe {
+    position: relative;
+    top:90vh;
+    text-align: center;
+}
