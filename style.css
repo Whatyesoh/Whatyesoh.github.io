@@ -12,7 +12,7 @@
 }
 body {
     position: relative;
-    background-color: rgb(255, 255, 212);
+    background-color: rgb(255,255,212);
     max-width: 100vw;
 }
 
@@ -33,6 +33,7 @@ body {
     height: 1000px;
 }
 .parallax {
+    background-color: rgb(255,255,212);
     background: fixed;
     font-family:"HomePage";
     position: fixed;
@@ -45,7 +46,7 @@ body {
     height: 100vh;
     text-align: center;
     background-attachment: fixed;
-    z-index: -1;
+    z-index: 10;
 }
 #arrow {
     opacity: 1;
@@ -109,6 +110,9 @@ body {
 }
 #introButton:hover {
     background-color: rgb(100,200,200);
+}
+#backgroundColor {
+    background-color: rgb(174, 236, 236);
 }
 #projectIntro2 {
     height: 100vh;      
@@ -208,8 +212,9 @@ body {
         height: 20vh;
     }
 }
-#aboutMe {
+#center {
+    background-color:rgb(174, 236, 236);
     position: relative;
-    top:100vh;
     text-align: center;
+    top:-10vh;
 }
