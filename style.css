@@ -46,7 +46,7 @@ body {
     height: 100vh;
     text-align: center;
     background-attachment: fixed;
-    z-index: 10;
+    z-index: -1;
 }
 #arrow {
     opacity: 1;
