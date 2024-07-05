@@ -3,11 +3,11 @@
     src: url(Demogilkons-lx9wy.otf);
 }
 html {
-    font-family:"garamond";
+    font-family:"HomePage";
     font-size:2vw;
 }
 button {
-    font-family:"garamond";
+    font-family:"HomePage";
 }
 .navbar {
     background-color: rgb(100,200,200);
@@ -42,7 +42,7 @@ body {
 .parallax {
     background-color: rgb(255,255,212);
     background: fixed;
-    font-family:"garamond";
+    font-family:"HomePage";
     font-size:3vw;
     position: fixed;
     display: flex;
