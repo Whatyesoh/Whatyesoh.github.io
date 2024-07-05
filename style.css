@@ -93,6 +93,22 @@ body {
         height: 20vh;
     }
 }
+#introButton {
+    position: absolute;
+    top:90vh;
+    right:22.5vw;
+    border: 5px solid rgb(255,255,212);
+    background-color: gray;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 15px 32px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+#introButton:hover {
+    background-color: rgb(100,200,200);
+}
 #projectIntro2 {
     height: 100vh;      
     background-color: rgb(174, 236, 236);
