@@ -115,6 +115,19 @@ body {
     background-color: rgb(174, 236, 236);
     z-index: 1;
 }
+#leftHome {
+    position:absolute;
+    top:230vh;
+    width:48vw;
+    text-align:center;
+}
+#halfImages {
+    img{
+        border: 5px solid rgb(210,210,140);
+        width: 20vh;
+        height: 20vh;
+    }
+}
 #pageHeader {
     text-align: center;
     position: relative;
@@ -126,6 +139,22 @@ body {
     position: relative;
     top: 15vh;
     z-index: -1;
+}
+#mainButton {
+    position: relative;
+    top:0vh;
+    right:0vw;
+    border: 5px solid rgb(210,210,140);
+    background-color: gray;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 15px 32px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+#mainButton:hover {
+    background-color: rgb(100,200,200);
 }
 #linkButton {
     position: relative;
@@ -140,7 +169,6 @@ body {
     height:6vh;
     transition-duration: .3s;
     cursor: pointer;
-
 }
 #linkButton:hover {
     background-color: rgb(100,200,200);
