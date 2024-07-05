@@ -121,9 +121,16 @@ body {
     width:48vw;
     text-align:center;
 }
+#rightHome {
+    position:absolute;
+    left:50vw;
+    top:230vh;
+    width:48vw;
+    text-align:center;
+}
 #halfImages {
     img{
-        border: 5px solid rgb(210,210,140);
+        border: 5px solid rgb(255,255,212);
         width: 20vh;
         height: 20vh;
     }
@@ -144,7 +151,7 @@ body {
     position: relative;
     top:0vh;
     right:0vw;
-    border: 5px solid rgb(210,210,140);
+    border: 5px solid rgb(255,255,212);
     background-color: gray;
     color: white;
     font-size: 1.5vw;
