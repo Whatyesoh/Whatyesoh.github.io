@@ -1,7 +1,10 @@
+
 @font-face {
     font-family: "HomePage";
-    src: url(Demogilkons-lx9wy.otf);
+    /*src: url(Demogilkons-lx9wy.otf);*/
+    /*src: url(Teko-VariableFont_wght.ttf);*/
 }
+
 html {
     font-family:"HomePage";
     font-size:2vw;
@@ -42,7 +45,6 @@ body {
 .parallax {
     background-color: rgb(255,255,212);
     background: fixed;
-    font-family:"HomePage";
     font-size:3vw;
     position: fixed;
     display: flex;
